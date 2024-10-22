@@ -1,0 +1,203 @@
+<!--
+Name: Jay Powell
+Email: powela9@uc.edu.org
+Assignment Title: Assignment 02
+Due Date: 09/12/2024
+Course: IS 3050
+Semester: Fall 2024
+Brief Description: My first simple webpage using things we've learned in class
+Citations: https://www.w3schools.com/html/, 
+https://www.cockroachlabs.com/blog/history-of-databases-distributed-sql/, 
+https://www.mongodb.com/resources/compare/relational-vs-non-relational-databases
+-->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background-color:lavenderblush;
+        }
+        h1{
+            text-align:center;
+            color: DarkBlue;
+        }
+        h2{
+            color:DarkBlue;
+        }
+        h3{
+            color:#551a8b;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        .TableOfContents{
+            text-align: center;
+            list-style-position: inside; /*Used to make numbers in list center as well */
+           background-color:LightCoral; 
+           color: Navy;
+        }
+        table{
+            background-color: #dddddd;
+            border: 1px solid #000000;
+            border-collapse: collapse; /*To make table have no space between borders */ 
+            margin-left: auto;
+            margin-right: auto;
+            /*margin left and right to center table */
+        }
+        td, th{
+            border: 1px solid #000000;
+        }
+    </style>
+    <title> Assignment 02 </title>
+</head>
+<body>
+    <h1> Databases are Great</h1>
+    <img src = "DatabaseExample.jpg" alt="multiple tables with relationships" height="293" width="426">
+
+    <div class = "TableOfContents">
+        <h2 style="color: Navy">Table of Contents</h2> <!--done because the h2 style precedes the table of contents div-->
+        <ol>
+            <li>Introduction</li>
+            <li>Exploring the Different Types of Databases</li>
+            <li>Real Life Database Examples</li>
+        </ol> 
+    </div>
+
+
+    <h2> Introduction: </h2>
+
+    <h3>Love of Databases:</h3>
+    <p> Recently I've developed a love of databases. Not just the data they hold, but the structure, 
+        the language they're written in, how the data can be manipulated, and the amount of database 
+        services that exist. I found this love back in 2021, during a cyber security internship at P&G. While 
+        it was a cyber security internship, most of the work was focused on manipulating data in Excel 
+        and creating KPI's using PowerBI. In 2022, I switched majors from cyber security to business 
+        analytics, and then to a double major in BANA and information systems.
+    </p>
+
+    <h3><a href = "https://www.cockroachlabs.com/blog/history-of-databases-distributed-sql/">The Foundation of Databases:</a></h3>
+    <p> Databases are essential for storing, managing, and accessing data, as I learned in my database
+        design class last year. They allow users to manipulate and retrieve data to answer specific 
+        questions, provided the data exists within the database. Computer databases have been in use
+        since the 1960s, but their popularity surged in 1970 when Edgar Codd of IBM published a 
+        landmark paper introducing the concept of organizing data into cross-linked tables. This led to 
+        the rise of commercial databases, with Oracle launching the first one in 1979.
+    </p>
+    <img src = "History-of-DBs.png" alt="Timeline of Databases from 1970 to 2019" height="233" width="490">
+    <p> Since then, databases have evolved from traditional relational models to include NoSQL solutions, 
+        designed for handling unstructured data and large-scale applications. Today, databases are the 
+        backbone of everyday systems like social media, e-commerce, and banking, ensuring seamless 
+        data transactions and real-time access. They continue to evolve, driven by the demand for faster, 
+        more dynamic data management solutions.
+    </p>
+
+    <h2>Exploring the Different Types of Databases</h2>
+    <p> There are two types of databases that I know of, relational databases and NoSQL databases. 
+        Relational databases and NoSQL databases serve different purposes and data models. Relational 
+        databases, like MySQL and PostgreSQL, organize data into structured tables with defined 
+        relationships, using SQL to query and manage data. In contrast, NoSQL databases, such as
+        <span style = "color: #4faa41"> MongoDB </span>, handle unstructured or semi-structured data, offering more flexibility by storing 
+        information in documents, key-value pairs, or graphs without predefined schemas
+    </p>
+
+    <h3><a href = "https://www.mongodb.com/resources/compare/relational-vs-non-relational-databases">NoSQL vs Relational Databases</a></h3>
+    <table>
+        <tr>
+          <th>Feature</th>
+          <th>Relational Databases</th>
+          <th>NoSQL Databases</th>
+        </tr>
+        <tr>
+          <td>Data Model</td>
+          <td>Structured wth predefined relationships</td>
+          <td>Flexible, stores data as documents, graphs, or columns</td>
+        </tr>
+        <tr>
+          <td>Query Language</td>
+          <td>SQL</td>
+          <td>Varies</td>
+        </tr>
+        <tr>
+          <td>Schema</td>
+          <td>Fixed schema</td>
+          <td>Schema-less or flexible schema</td>
+        </tr>
+        <tr>
+          <td>Scalability</td>
+          <td>Vertical scaling</td>
+          <td>Horizontal scaling</td>
+        </tr>
+        <tr>
+          <td>Examples</td>
+          <td>MySQL and Oracle</td>
+          <td> <span style = "color: #4faa41"> MongoDB </span> and Cassandra</td>
+        </tr>
+      </table>
+
+      <h3>Popular Database Examples</h3>
+    <p> As someone who uses Discord, and is in the process of using Python to make a bot, one of the
+        databases I've had to work with is <span style = "color: #4faa41"> MongoDB </span>. <span style = "color: #4faa41"> MongoDB </span> is really useful for verification of
+        members and managing members. In order to verify members trying to join a server there has to
+        be a database. The database, specifically the servers collection, where the server specific data is
+        stored. The python code I'm working on creates, updates, and deletes server-specific data in
+        <span style = "color: #4faa41"> MongoDB </span>, including role IDs, premium status, and logging webhooks. It also stores verification
+        data to track how many users have been verified. Because <span style = "color: #4faa41"> MongoDB </span> is NoSQL, python code
+        works just fine to code it.
+    </p>
+    <img src="MongoDB Database.png" alt="MongoDB Compass" height="301" width="518">
+
+    <p> In contrast, Oracle is a relational database. You code using SQL to create tables and relationships,
+        as well as manipulate and query the database. I've only worked using Oracle during one class 
+        learning the different queries you can use to get information from the database as well as 
+        learning how to structure the database. In my personal opinion, while I find coding in SQL 
+        enjoyable and easy, I do enjoy the ease of working with NoSQL.
+    </p>
+
+    <h3>Emerging Database Technologies</h3>
+    <p> As the demand for scalability and performance grows, emerging database technologies, 
+        such as NewSQL and multi-model databases, are blending the consistency and reliability of relational 
+        models with the flexibility and scalability of NoSQL, offering the best of both worlds for today’s 
+        complex data environments.
+    </p>
+
+    <h2> Real Life Database Examples </h2>
+    <img src="LibraryDatabase.png" alt="A Library Database" height="222" width="515">
+    <p> When looking at databases, one of the things I've always been curious about is how bookstore 
+        and library databases work. I've always wanted to work at a bookstore and would love to combine 
+        my love of databases with my love of reading books. Now I work at a library and while I don't get 
+        to work with the databases I do enjoy learning about them.
+    </p>
+    <p> From what I've learned so far a library database several key elements must be managed, including 
+        inventory of books, what library has what book, who has a book on hold, when is the book due, is 
+        the book overdue, etc. A relational database is well-suited for handling structured data like patron 
+        details, book information, and check out history, where relationships between entities are 
+        important. This type of database ensures that information like book availability and user 
+        borrowing history is consistent and easily retrievable. Additionally, features like tracking overdue 
+        books, sending automated reminders, and managing interlibrary loans rely on the relational 
+        structure to keep operations smooth and efficient. 
+    </p>
+    <p> However, libraries increasingly generate large amounts of unstructured data. Such as digital 
+        copies of books, and multimedia content like audiobooks or movies. This is where NoSQL would
+        be perfect to handle flexible and growing data. Using a hybrid approach that combines relational 
+        databases for structured data and NoSQL for unstructured data allows the library to manage both 
+        efficiently.   
+    </p>
+    <p> I do know that we use a website that use network based access control. Meaning only certain 
+        computers with admin access can access the database. The way to access the database is with 
+        a simple web application that allows users to simply type in the information they want instead of 
+        coding using SQL. I want to assume the database is using a combination of server side and client 
+        side code, such as using Python with Vue.js. It could also be using a myriad of other coding 
+        languages to accomplish this.
+    </p>
+    <p> Scalability is also a key factor, especially as libraries expand their digital offerings and
+        membership. A hybrid system ensures the library database can scale to accommodate growing 
+        user demand, maintain performance during peak periods, and handle large data sets without 
+        compromising speed or reliability.
+    </p>
+</body>
+</html>
