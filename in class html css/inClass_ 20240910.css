@@ -1,0 +1,29 @@
+/* CSS in Class */
+
+h1 {
+	background-color: yellow;
+	color: chocolate;
+}
+
+#myP {
+	color: pink;
+	text-align: center;
+}
+
+#myDiv {
+	background-color: green;
+	color: white;
+}
+
+.myClass {
+	color: violet;
+	background-color: gray;
+}
+
+.NewClass {
+	color: HotPink;
+}
+
+#NewID {
+	color: SeaGreen;
+}
