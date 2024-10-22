@@ -1,0 +1,7 @@
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\bin\Debug\InClass20241008-001.exe.config
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\bin\Debug\InClass20241008-001.exe
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\bin\Debug\InClass20241008-001.pdb
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\obj\Debug\InClass20241008-001.csproj.AssemblyReference.cache
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\obj\Debug\InClass20241008-001.csproj.CoreCompileInputs.cache
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\obj\Debug\InClass20241008-001.exe
+C:\Users\powela9\source\repos\InClass20241008-001\InClass20241008-001\obj\Debug\InClass20241008-001.pdb
