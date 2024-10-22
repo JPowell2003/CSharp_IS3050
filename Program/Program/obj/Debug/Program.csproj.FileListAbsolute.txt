@@ -1,0 +1,7 @@
+C:\Users\powela9\source\repos\Program\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\powela9\source\repos\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\powela9\source\repos\Program\Program\bin\Debug\Program.exe.config
+C:\Users\powela9\source\repos\Program\Program\bin\Debug\Program.exe
+C:\Users\powela9\source\repos\Program\Program\bin\Debug\Program.pdb
+C:\Users\powela9\source\repos\Program\Program\obj\Debug\Program.exe
+C:\Users\powela9\source\repos\Program\Program\obj\Debug\Program.pdb
