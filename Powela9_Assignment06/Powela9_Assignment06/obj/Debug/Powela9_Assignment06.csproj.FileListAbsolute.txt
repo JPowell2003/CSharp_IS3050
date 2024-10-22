@@ -1,0 +1,7 @@
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\obj\Debug\Powela9_Assignment06.csproj.AssemblyReference.cache
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\obj\Debug\Powela9_Assignment06.csproj.CoreCompileInputs.cache
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\bin\Debug\Powela9_Assignment06.exe.config
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\bin\Debug\Powela9_Assignment06.exe
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\bin\Debug\Powela9_Assignment06.pdb
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\obj\Debug\Powela9_Assignment06.exe
+C:\Users\alipo\OneDrive\Desktop\WebDev\Powela9_Assignment06\Powela9_Assignment06\obj\Debug\Powela9_Assignment06.pdb
