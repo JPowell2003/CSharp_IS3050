@@ -1,4 +1,4 @@
-﻿/* Documentation */
+/* Documentation */
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,11 +21,11 @@ namespace Program
             Console.WriteLine(answer);
 
             int FactorialAnswer;
-            FactorialAnswer = Factorial(5);
+            FactorialAnswer = Factorial(-5);
             Console.WriteLine(FactorialAnswer);
 
             int FactorialWhileAnswer;
-            FactorialWhileAnswer = FactorialWhile(5);
+            FactorialWhileAnswer = FactorialWhile(-5);
             Console.WriteLine(FactorialWhileAnswer);
 
             Boolean EvenAnswer;
@@ -60,11 +60,18 @@ namespace Program
         static int Factorial(int FactorialIntFor)
         {
             int result = 1;
-            for (int i = 2; i <= FactorialIntFor; i++)
+            if (FactorialIntFor < 0)
             {
-                result *= i;
+                Console.WriteLine("You can't factorial a negative number");
             }
-            return result;
+            else
+            {
+                for (int i = 2; i <= FactorialIntFor; i++)
+                {
+                    result *= i;
+                }
+                return result;
+            }
         }
 
         /// <summary>
@@ -76,12 +83,19 @@ namespace Program
         {
             int resultWhile = 1;
             int counter = 1;
-            while (counter <= FactorialIntWhile)
+            if (FactorialIntWhile < 0)
             {
-                resultWhile *= counter;
-                counter++;
+                Console.WriteLine("You can't factorial a negative number");
             }
-            return resultWhile;
+            else
+            {
+                while (counter <= FactorialIntWhile)
+                {
+                    resultWhile *= counter;
+                    counter++;
+                }
+                return resultWhile;
+            }
         }
 
         ///<summary>
@@ -89,8 +103,9 @@ namespace Program
         ///</summary>
         ///<param name="int alpha"> The number we're checking </param>
         ///<returns> True if value is even, false if not, always false if negative </returns>
-        static Boolean checkEven(int number)
+        static Boolean checkEven(int number, string message = "")
         {
+            Console.WriteLine(message);
             if (number % 2 == 0)
             {
                 return true;
