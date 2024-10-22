@@ -1,0 +1,60 @@
+
+#PizzaImageDiv {
+    text-align: center;
+}
+
+/* Made image wider to match picture of website */
+.PizzaImageClass {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 225px;
+}
+
+#ContactInformationDiv {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#ContactInformationSpan {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+ #MenuTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Creates the border around the cells instead of outside the whole thing */
+#MenuTable th, #MenuTable td {
+    border: 1px solid #000;
+}
+
+#MenuTableCaption {
+    font-size: 2.3em;
+    font-family: 'Georgia', serif;
+}
+
+.MenuItem {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #FFF2DF;
+}
+
+.Pizza {
+    background-color: #FFF2DF;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+#KidsEatFreeTableFooter {
+    text-align: center;
+    background-color: #FFF2DF;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/*Experimented with EM and decided to go with pixels */
+#FreeBreadsticks{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 14px;
+    background-color: #FFF2DF;
+}
